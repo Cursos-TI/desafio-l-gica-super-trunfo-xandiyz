@@ -7,9 +7,6 @@ int populacao2, pib2, pturisticos2, area2, salario2;
 int pontosjogador1 =0, pontosjogador2 =0, codigo, codigo2;
  
 
-printf("Digite o codigo da cidade");
-scanf("%s", &codigo);
-
 
 printf("Cadastre suas cartas!!");
 printf("Vamos começar com a Cidade do jogador n1!!\n");
@@ -31,8 +28,7 @@ scanf("%d", &area1);
 pontosjogador1 += area1;
 
 printf("Agora, vamos começar a cadastrar a cidade do jogador n2!!\n");
-printf("Digite o codigo da segunda cidade");
-scanf("%s", &codigo2);
+
 
 printf("Digite a População\n");
 scanf("%d", &populacao2);
